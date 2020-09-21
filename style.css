@@ -25,6 +25,14 @@ nav a.aktuell {
     color: rgb(80, 80, 80);
 }
 
+h1 {
+    text-shadow: rgba(169, 169, 169, 0.5) -4px 3px 0pc;
+    text-align: center;
+    font-size: 3rem;
+    border-top: 1px solid;
+    border-left: 3px solid;
+    /* margin: 0 auto; */
+}
 table {
     font-size: 1.3em;
     width: 100%;
@@ -43,4 +51,26 @@ input[type="reset"] {
 }
 .smallLineHeight{
     line-height: 0.9;
+}
+
+.letterSpacing{
+letter-spacing: 5px;
+}
+
+.wordSpacing {
+word-spacing: 1.5rem;
+}
+
+.firstLineInward {
+    text-indent: 2rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover, a:focus, a:active {
+    color: blue;
+    text-decoration: underline;
 }
